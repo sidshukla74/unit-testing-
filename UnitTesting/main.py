@@ -1,4 +1,4 @@
-#this is the file that we use for checking the functionality of our code
+
 
 def add(first_val,  second_val):
     ad_val =  first_val+second_val
