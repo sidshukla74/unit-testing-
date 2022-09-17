@@ -28,14 +28,16 @@ class Problem_Check(unittest.TestCase):
         expected = 15
         self.assertEqual(result, expected)
 
-    def test_multiply(self):
-        val1 = 4
-        val2 = 3
-        result = main.multiply(val1, val2)
-        expected = 12
-        self.assertEqual(result, expected)
-        
+
 
 if __name__ == "__main__":
     unittest.main()
+
+""" def test_multiply(self):
+     val1 = 4
+     val2 = 3
+     result = main.multiply(val1, val2)
+     expected = 12
+     self.assertEqual(result, expected)
+     """
 
