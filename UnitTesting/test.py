@@ -6,6 +6,14 @@ import main
 class Problem_Check(unittest.TestCase):
 
 
+    def test_divide(self):
+        val1 = 10
+        val2 = 20
+        result = main.divide(val1, val2)
+        expected = 1
+        self.assertEqual(result, expected)
+
+
     def test_add(self):
         val1 = 10
         val2 = 20
