@@ -12,7 +12,7 @@ def sub(first_val, second_val):
 def divide(first_val ,second_val):
     div_val = first_val / second_val
     return div_val
-
+"""
 def multiply(first_val  , second_val):
     multp_val = first_val * second_val
-    return multp_val
+    return multp_val"""
