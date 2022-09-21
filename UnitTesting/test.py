@@ -1,4 +1,3 @@
-from msilib.schema import Class
 import unittest
 import main
 
@@ -34,9 +33,6 @@ class Problem_Check(unittest.TestCase):
          result = main.multiply(val1, val2)
          expected = 12
          self.assertEqual(result, expected)
-
-
-
 
 
 if __name__ == "__main__":
